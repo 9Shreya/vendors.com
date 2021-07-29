@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+/* @import "~bootstrap/css/bootstrap";
+@import "custom"; */
+.navbarlink {
+  color: "white";
+  text-decoration: "none";
+}
+.heart {
+  position: absolute;
+  right: -25px;
+  top: -25px;
+  cursor: pointer;
+}
+.boxColor {
+  /* border: .5px solid rgb(151, 147, 147); */
+  box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.19),
+    0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 5px;
+  width: 89%;
+  padding: 15px;
+  height: 150%;
+}
+.wishlist {
+  box-shadow: 0px 1px 1px 5px rgba(224, 223, 223, 0.19),
+    0 6px 6px rgba(112, 109, 109, 0.23);
+  border-radius: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wishlistMain {
+  border-radius: 5px;
+  box-shadow: 0px 1px 1px 5px rgba(224, 223, 223, 0.19),
+    0 6px 6px rgba(112, 109, 109, 0.23);
+}
+.wishlistContent {
+  padding: 20px 50px;
+  font-size: 17px;
+  font-weight: 500;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.buttondiv {
+  position: sticky;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  bottom: -5%;
+  background-color: white;
+  justify-items: right;
+  height: 100px;
 }

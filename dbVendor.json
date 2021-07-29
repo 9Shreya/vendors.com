@@ -1,0 +1,109 @@
+{
+  "vendorShop": [
+    {
+      "name": "Potato",
+      "id": 1,
+      "price": 30,
+      "available": 1,
+      "vendor": "Himachal Pvt Ltd",
+      "category": "Vegtables",
+      "wishlist": false
+    },
+    {
+      "name": "Guava",
+      "price": 50,
+      "available": 1,
+      "category": "Fruits",
+      "vendor": "Organic farms",
+      "wishlist": false,
+      "id": 2
+    },
+    {
+      "name": "French Fries",
+      "id": 3,
+      "price": 20,
+      "available": 0,
+      "category": "Vegetables",
+      "vendor": "Mallikarjuna farms",
+      "wishlist": false
+    },
+    {
+      "name": "Apple",
+      "id": 4,
+      "price": 25,
+      "available": 1,
+      "vendor": "Nagpur farms",
+      "category": "Fruits",
+      "wishlist": false
+    },
+    {
+      "name": "Onion",
+      "id": 5,
+      "price": 30,
+      "available": 1,
+      "vendor": "Himachal Pvt Ltd",
+      "category": "Vegtables",
+      "wishlist": false
+    },
+    {
+      "name": "PineApple",
+      "price": 50,
+      "available": 6,
+      "category": "Fruits",
+      "vendor": "Organic farms",
+      "wishlist": false,
+      "id": 2
+    },
+    {
+      "name": "Juice",
+      "id": 7,
+      "price": 20,
+      "available": 0,
+      "category": "Vegetables",
+      "vendor": "Mallikarjuna farms",
+      "wishlist": false
+    },
+    {
+      "name": "Mango",
+      "id": 8,
+      "price": 25,
+      "available": 1,
+      "vendor": "Nagpur farms",
+      "category": "Fruits",
+      "wishlist": false
+    }
+  ],
+  "cart": [
+    {
+      "name": "Guava",
+      "price": 50,
+      "available": 1,
+      "category": "Fruits",
+      "vendor": "Organic farms",
+      "wishlist": false,
+      "id": 2,
+      "item": 1
+    },
+    {
+      "name": "Mango",
+      "id": 8,
+      "price": 25,
+      "available": 1,
+      "vendor": "Nagpur farms",
+      "category": "Fruits",
+      "wishlist": false,
+      "item": 4
+    }
+  ],
+  "wishlist": [
+    {
+      "name": "Potato",
+      "id": 1,
+      "price": 30,
+      "available": 1,
+      "vendor": "Himachal Pvt Ltd",
+      "category": "Vegtables",
+      "wishlist": false
+    }
+  ]
+}
